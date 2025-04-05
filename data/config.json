@@ -1,0 +1,94 @@
+{
+    "project": {
+      "name": "CN Queer Story",
+      "quality": 1
+   },
+    "loader": {
+      "info": "data/info.md",
+      "timeline": "data/timeline.csv",
+      "items": "data/data.csv",
+      "layouts": [
+          {
+              "title": "Time"
+          }
+      ],
+      "textures": {
+        "medium": {
+          "size": 256,
+          "url": "data/spritesheet.json"
+        },
+        "detail": {
+          "size": 1024,
+          "url": "data/1024/"
+        },
+        "big": {
+          "size": 4096,
+          "url": "data/4096/"
+        }
+      }
+    },
+    "style": {
+   "fontColor": "#333333",
+  "fontColorActive": "#f7b42c",
+  "fontBackground": "#ffffff",
+  "textShadow": "1px 1px 3px rgba(0, 0, 0, 0.2)",
+
+  "canvasBackground": "#f6f6f6",
+
+  "timelineBackground": "linear-gradient(to right, #ff6b6b, #f7b42c, #6dd47e, #1abc9c, #1784e3, #9b59b6)",
+  "timelineFontColor": "#222222",
+
+  "backgroundHeader": "#linear-gradient(to right, #ff6b6b, #f7b42c, #6dd47e, #1abc9c, #1784e3, #9b59b6)",
+  "fontColorHeader": "#ffffff",
+
+  "detailBackground": "linear-gradient(to bottom right, #d8a29d, #e8c1a0, #d6d4a0, #a5c4b1, #a0b3d6, #b3a0c6)",
+  "infoBackground": "linear-gradient(to bottom right, #d8a29d, #e8c1a0, #d6d4a0, #a5c4b1, #a0b3d6, #b3a0c6)",
+  "infoFontColor": "#ffffff",
+
+  "searchbarBackground": "linear-gradient(to right, #ff6b6b, #f7b42c, #6dd47e, #1abc9c, #1784e3, #9b59b6)"
+    },
+    "projection": {
+      "columns": 5
+    },
+    "detail": {
+      "structure": [      
+        {
+          "name": "Year",
+          "source": "_year",
+          "display": "column",
+          "type": "text"
+        },
+        {
+          "name": "Event",
+          "source": "_event",
+          "display": "column",
+          "type": "text"
+        },
+        {
+          "name": "Keywords",
+          "source": "_keywords",
+          "display": "column",
+          "type": "array"
+        },
+        {
+          "name": "Description",
+          "source": "_description",
+          "display": "column",
+          "type": "text"
+        },
+        {
+          "name": "Link",
+          "source": "_link",
+          "display": "column",
+          "type": "text"
+        },
+        {
+          "name": "Id",
+          "source": "_id",
+          "display": "column",
+          "type": "text"
+        }
+      ]
+    }
+  }
+  
