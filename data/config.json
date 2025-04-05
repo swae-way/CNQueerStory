@@ -15,7 +15,7 @@
       "textures": {
         "medium": {
           "size": 256,
-          "url": "data/vikus-viewer-script/script/spritesheet.json"
+          "url": "data/spritesheet.json"
         },
         "detail": {
           "size": 1024,
