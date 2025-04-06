@@ -13,7 +13,8 @@
           }
       ],
       "textures": {
-        "preview": {
+        "medium": {
+          "size": 100,
           "url": "data/spritesheet.json"
         },
         "detail": {
