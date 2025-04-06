@@ -80,7 +80,7 @@
           "name": "Link",
           "source": "_link",
           "display": "column",
-          "type": "text"
+          "type": "link"
         },
         {
           "name": "Id",
