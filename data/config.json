@@ -14,7 +14,7 @@
       ],
       "textures": {
         "medium": {
-          "size": 1024,
+          "size": 256,
           "url": "data/spritesheet.json"
         },
         "detail": {
