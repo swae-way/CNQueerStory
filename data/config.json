@@ -48,7 +48,7 @@
   "searchbarBackground": "linear-gradient(to right, #ff6b6b, #f7b42c, #6dd47e, #1abc9c, #1784e3, #9b59b6)"
     },
     "projection": {
-      "columns": 3
+      "columns": 4
     },
     "detail": {
       "structure": [      
