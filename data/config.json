@@ -13,17 +13,10 @@
           }
       ],
       "textures": {
-        "medium": {
-          "size": 256,
-          "url": "data/spritesheet.json"
-        },
         "detail": {
           "size": 1024,
-          "url": "data/1024/"
+          "url": "data/images/"
         },
-        "big": {
-          "size": 4096,
-          "url": "data/4096/"
         }
       }
     },
